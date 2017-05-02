@@ -1,0 +1,149 @@
+﻿<Page x:Class="Campus_Harburg_UWP.frm_about"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:Campus_Harburg_UWP"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}">
+        <ScrollViewer Margin="10">
+            <StackPanel>
+                <TextBlock Name="infoi"
+                           Margin="0,0,0,10"
+                           HorizontalAlignment="Center"
+                           FontSize="26"
+                           Text="'Campus Harburg' App" />
+                <TextBlock Name="gui_ver" Text="Version 1.4.5 - 31.10.2016" />
+                <TextBlock Name="gui_date" Text="28.04.2017" />
+                <TextBlock Margin="0"
+                           FontSize="15"
+                           Text="Copyright © 2016-2017 Frank Zimdars" />
+
+                <TextBlock Margin="0,20,0,0"
+                           FontSize="18"
+                           Text="Kontakt:" />
+                <TextBlock Text="Angaben gemäß §5 TMG " />
+                <StackPanel Background="#FFE1E1E1" Orientation="Horizontal">
+                    <TextBlock Width="60"
+                               Margin="10,10,0,0"
+                               Text="Anschrift" />
+                    <StackPanel Margin="10,10,0,10"
+                                BorderBrush="Black"
+                                BorderThickness="1,0,0,0">
+                        <TextBlock Margin="10,0,0,0" Text="Frank Zimdars" />
+                        <TextBlock Margin="10,0,0,0" Text="Im Ilmer 26" />
+                        <TextBlock Margin="10,0,0,0" Text="21357 Bardowick" />
+                        <TextBlock Margin="10,0,0,0" Text="Deutschland" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0"
+                            Background="#FFE1E1E1"
+                            Orientation="Horizontal">
+                    <TextBlock Width="60"
+                               Height="32"
+                               Margin="10,10,0,0"
+                               Text="E-Mail" />
+                    <StackPanel Margin="10,10,0,10"
+                                BorderBrush="Black"
+                                BorderThickness="1,0,0,0">
+                        <HyperlinkButton Height="32"
+                                         Margin="10,0,0,0"
+                                         Content="frank.zimdars@outlook.com"
+                                         NavigateUri="Mailto: frank.zimdars@outlook.com" />
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock Margin="0,20,0,0"
+                           FontSize="18"
+                           Text="Hinweise: " />
+                <TextBlock Name="hinw"
+                           Text="[@ASSETS]"
+                           TextWrapping="WrapWholeWords" />
+
+                <TextBlock Margin="0,20,0,0"
+                           FontSize="18"
+                           Text="Datenschutz: " />
+                <TextBlock Name="info"
+                           Text="[@ASSETS]"
+                           TextWrapping="WrapWholeWords" />
+
+                <TextBlock Margin="0,15,0,0"
+                           FontSize="18"
+                           Text="Verwendete Software" />
+                <TextBlock Margin="0,10,0,0" Text="Json.net" />
+                <StackPanel Margin="0,0,0,0"
+                            Background="#FFE1E1E1"
+                            Orientation="Horizontal">
+                    <TextBlock Width="60"
+                               Height="32"
+                               Margin="10,10,0,0"
+                               Text="Lizenz" />
+                    <StackPanel Margin="10,10,0,10"
+                                BorderBrush="Black"
+                                BorderThickness="1,0,0,0">
+                        <HyperlinkButton Height="32"
+                                         Margin="10,0,0,0"
+                                         Content="MIT License"
+                                         NavigateUri="https://raw.githubusercontent.com/JamesNK/Newtonsoft.Json/master/LICENSE.md" />
+                        <TextBlock Margin="10,0,0,0"
+                                   Text="Copyright (c) 2007 James Newton-King"
+                                   TextWrapping="Wrap" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0"
+                            Background="#FFE1E1E1"
+                            Orientation="Horizontal">
+                    <TextBlock Width="60"
+                               Height="32"
+                               Margin="10,10,0,0"
+                               Text="Webseite" />
+                    <StackPanel Margin="10,10,0,10"
+                                BorderBrush="Black"
+                                BorderThickness="1,0,0,0">
+                        <HyperlinkButton Height="32"
+                                         Margin="10,0,0,0"
+                                         Content="http://www.newtonsoft.com/json"
+                                         NavigateUri="http://www.newtonsoft.com/json" />
+                    </StackPanel>
+                </StackPanel>
+
+                <TextBlock Margin="0,10,0,0" Text="HTMLAgilityPack" />
+                <StackPanel Margin="0,0,0,0"
+                            Background="#FFE1E1E1"
+                            Orientation="Horizontal">
+                    <TextBlock Width="60"
+                               Height="32"
+                               Margin="10,10,0,0"
+                               Text="Lizenz" />
+                    <StackPanel Margin="10,10,0,10"
+                                BorderBrush="Black"
+                                BorderThickness="1,0,0,0">
+                        <HyperlinkButton Height="32"
+                                         Margin="10,0,0,0"
+                                         Content="Microsoft Public License (Ms-PL)"
+                                         NavigateUri="http://htmlagilitypack.codeplex.com/license" />
+
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Margin="0,0,0,0"
+                            Background="#FFE1E1E1"
+                            Orientation="Horizontal">
+                    <TextBlock Width="60"
+                               Height="32"
+                               Margin="10,10,0,0"
+                               Text="Webseite" />
+                    <StackPanel Margin="10,10,0,10"
+                                BorderBrush="Black"
+                                BorderThickness="1,0,0,0">
+                        <HyperlinkButton Height="32"
+                                         Margin="10,0,0,0"
+                                         Content="http://htmlagilitypack.codeplex.com/"
+                                         NavigateUri="http://htmlagilitypack.codeplex.com/" />
+                    </StackPanel>
+                </StackPanel>
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

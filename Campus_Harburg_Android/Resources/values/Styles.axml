@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorPrimary">#2196f3</item>
+    <item name="colorPrimaryDark">#1565c0</item>
+    <item name="colorAccent">#e53935</item>
+  </style>
+
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+
+  <style name="SplashTheme.Base" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#2196f3</item>
+    <item name="colorPrimaryDark">#1565c0</item>
+    <item name="colorAccent">#e53935</item>
+    <item name="android:windowBackground">@drawable/StartScreen</item>
+  </style>
+
+  <style name="SplashTheme" parent="SplashTheme.Base">
+  </style>
+
+</resources>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+           android:scaleType="centerCrop"
+            
+            >
+
+  <item android:top="0dp" android:left="0dp" android:bottom="0dp" android:right="0dp">
+    <shape android:shape="rectangle">
+      <size android:width="9dp"
+          android:height="9dp"/>
+      <solid android:color="#2196F3"/>
+    </shape>
+  </item>
+
+  <item>
+    <bitmap
+
+      android:adjustViewBounds="true"
+        android:gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_splash"/>
+  </item>
+
+</layer-list>

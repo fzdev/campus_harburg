@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+
+    <item
+     android:id="@+id/nav_start"
+     android:icon="@drawable/ic_home_black"
+     android:title="Start" />
+
+
+    <item
+      android:id="@+id/nav_mensa"
+      android:icon="@drawable/ic_restaurant"
+      android:title="Mensa" />
+
+    <item
+      android:id="@+id/nav_rooms"
+      android:icon="@drawable/ic_place_black"
+      android:title="Räume" />
+
+
+    <item
+      android:id="@+id/nav_exams"
+      android:icon="@drawable/ic_school_black"
+      android:title="Prüfungen" />
+
+    <item
+      android:id="@+id/nav_times"
+      android:icon="@drawable/ic_today_black"
+      android:title="Semesterzeiten" />
+
+    <item
+      android:id="@+id/nav_links"
+      android:icon="@drawable/ic_list_black"
+      android:title="Links" />
+
+    
+    
+    <item
+      android:id="@+id/nav_about"
+      android:icon="@drawable/ic_info_black"
+      android:title="Info über..." />
+    
+    
+  </group>
+
+</menu>

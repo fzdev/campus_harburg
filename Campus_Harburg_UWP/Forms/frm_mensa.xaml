@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="Campus_Harburg_UWP.frm_mensa"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Campus_Harburg_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+  
+    <Page.BottomAppBar>
+        <CommandBar Background="{StaticResource Color_Bar_Background}" CompositeMode="MinBlend">
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Street" Label="Info" Click="AppBarButton_Click_2"  />
+            <AppBarButton Name="gui_back" Icon="Back" Label="Zurück" Click="AppBarButton_Click_1"  />
+            <AppBarButton Name="gui_forward" Icon="Forward" Label="Weiter" Click="AppBarButton_Click" />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}" Loaded="Grid_Loaded">
+        <ScrollViewer Margin="10,10,10,10" BorderThickness="0" Name="Scroll">
+            <StackPanel>
+                <TextBlock Text="Laden..." FontSize="18" HorizontalAlignment="Center" Name="gui_title"/>
+                <ItemsControl Name="Display">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel  Margin="0,15,0,0" BorderBrush="{ThemeResource AppBarItemDisabledForegroundThemeBrush}" BorderThickness="0,1,0,0" Background="{StaticResource Color_Box_Background}" MaxWidth="600" Padding="0,10,0,0">
+
+                                <TextBlock TextWrapping="Wrap" Text="{Binding Path=cat}"/>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding Path=title}" FontWeight="Bold"/>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding Path=price_student}" Foreground="{StaticResource Color_Style_Blue_Dark}" HorizontalAlignment="Right"/>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding Path=price_normal}" Foreground="{StaticResource Color_Style_Orange}" HorizontalAlignment="Right" />
+
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+        <ProgressRing Name="progressRing" Width="60" Height="60" IsActive="True" />
+        
+    </Grid>
+</Page>

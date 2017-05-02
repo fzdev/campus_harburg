@@ -1,0 +1,2 @@
+﻿Diese App bezieht alle Daten von öffentlich zugänglichen Webseiten. Als Datenquelle dient die Internetseite der TU-Hamburg-Harburg (tuhh.de) sowie OpenMensa (openmensa.org).
+Die App steht nicht mit den genannten Webseiten und Organisationen in Verbindung.  Für die Richtigkeit der angezeigten Daten kann keine Gewähr übernommen werden.

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="de.flz.campus_harburg" android:versionCode="16" android:versionName="1.45" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="25" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="Campus Harburg" android:icon="@drawable/icon"></application>
+</manifest>

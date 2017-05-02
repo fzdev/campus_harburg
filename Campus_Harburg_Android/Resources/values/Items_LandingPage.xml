@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="list_landingPage">
+    <item>Neues</item>
+    <item>Mensa</item>
+    <item>Prüfungen</item>
+    <item>Semesterzeiten</item>
+
+
+  </string-array>
+</resources>

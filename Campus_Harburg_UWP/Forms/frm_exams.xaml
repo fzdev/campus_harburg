@@ -1,0 +1,103 @@
+﻿<Page x:Class="Campus_Harburg_UWP.frm_exams"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:Campus_Harburg_UWP"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Page.Resources>
+        <local:BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <CommandBar Background="{ThemeResource ButtonDisabledBackgroundThemeBrush}"
+                    Foreground="Black" CompositeMode="MinBlend">
+            <CommandBar.Content>
+                <Grid />
+            </CommandBar.Content>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Aktualisieren" Click="AppBarButton_Click"/>
+                <AppBarButton Label="Info" Click="AppBarButton_Click_1"/>
+            </CommandBar.SecondaryCommands>
+
+            <AppBarButton Name="bar1"
+                          
+                          Foreground="Black"
+                          Icon="Find"
+                          Label="Suchen" Click="bar1_Click" />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}" Loaded="Grid_Loaded">
+        <ProgressRing Name="progressRing"
+                      Width="120"
+                      Height="120"
+                      IsActive="True" />
+            
+                <ItemsControl Name="Display" Margin="20,20,20,20">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    
+                    <ItemsControl.Template>
+                        <ControlTemplate TargetType="ItemsControl">
+                             <ScrollViewer>
+                                <ItemsPresenter/>
+                            </ScrollViewer>
+                        </ControlTemplate>
+                    </ItemsControl.Template>
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel 
+                                        Background="{Binding Path=color}"
+                                        BorderBrush="Black"
+                                        BorderThickness="0 1 0 0"
+                                HorizontalAlignment="Stretch"
+                                        MaxWidth="600"
+                                        Orientation="Vertical">
+
+                                <TextBlock 
+                                           Margin="0,0,20,0"
+                                           FontSize="17"
+                                           Text="{Binding Path=title}"
+                                           Foreground="{Binding Path=color1}"
+                                           TextWrapping="Wrap" />
+                                <TextBlock 
+                                        
+                                           Margin="0,0,20,0"
+                                           FontSize="17"
+                                           Text="{Binding Path=place}"
+                                            Visibility="{Binding Path=vis1, Converter={StaticResource BoolToVis}}"
+                                           TextWrapping="Wrap" />
+                                <TextBlock 
+                                           MaxWidth="600"
+                                           Margin="0,0,20,0"
+                                           FontSize="17"
+                                           Text="{Binding Path=time}"
+                                           Visibility="{Binding Path=vis1, Converter={StaticResource BoolToVis}}"
+                                           Foreground="Blue"
+                                           TextWrapping="Wrap" />
+                                <TextBlock 
+                                           Margin="0,0,20,0"
+                                           FontSize="17"
+                                           Text="{Binding Path=note}"
+                                           Visibility="{Binding Path=vis1, Converter={StaticResource BoolToVis}}"
+                                           Foreground="Orange"
+                                           TextWrapping="Wrap" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+
+               
+          
+
+
+    </Grid>
+
+</Page>

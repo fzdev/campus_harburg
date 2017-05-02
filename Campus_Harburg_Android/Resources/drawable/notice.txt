@@ -1,0 +1,9 @@
+﻿
+
+
+[Icons]
+All icons where the file name begins with "ic" are licensed under the Apache License Version 2.0. 
+All others are under the GPL v3 license.
+
+Source:
+https://material.io/icons/

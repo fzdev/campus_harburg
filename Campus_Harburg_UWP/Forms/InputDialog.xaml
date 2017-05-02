@@ -1,0 +1,18 @@
+﻿<ContentDialog x:Class="Campus_Harburg_UWP.ContentDialog1"
+               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+               xmlns:local="using:Campus_Harburg_UWP"
+               xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+               x:Name="ContentDialog"
+               Title="Suchen:"
+               PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+               PrimaryButtonText="Abbrechen"
+               SecondaryButtonClick="ContentDialog_SecondaryButtonClick"
+               SecondaryButtonText="OK"
+               mc:Ignorable="d">
+
+    <Grid>
+        <TextBox Text="{Binding ElementName=ContentDialog, Path=Text, Mode=TwoWay}" />
+    </Grid>
+</ContentDialog>

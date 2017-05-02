@@ -1,0 +1,26 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Campus_Harburg_UWP">
+
+    <SolidColorBrush x:Key="Bar_Background" Color="#CCD4D4D4"/>
+
+    <SolidColorBrush x:Key="Color_App_Title_Menu_Foreground" Color="White"/>
+    <SolidColorBrush x:Key="Color_App_Title_Menu_Background" Color="#2196f3"/>
+    <SolidColorBrush x:Key="Color_App_Title_Bar_Background" Color="#115497 "/>
+    <SolidColorBrush x:Key="Color_App_Title_Bar_Foreground" Color="White"/>
+    <SolidColorBrush x:Key="Color_App_Title_Mob_Background" Color="#115497"/>
+    <SolidColorBrush x:Key="Color_App_Title_Mob_Foreground" Color="White"/>
+
+    <SolidColorBrush x:Key="Color_App_Background" Color="#FFF0F0F0"/>
+    <SolidColorBrush x:Key="Color_Bar_Background" Color="#CCD4D4D4"/>
+    <SolidColorBrush x:Key="Color_Box_Background" Color="#00008080"/>
+    <SolidColorBrush x:Key="Color_Box_Border" Color="#00008080"/>
+
+
+    <SolidColorBrush x:Key="Color_Style_Blue_Dark" Color="#115497"/>
+    <SolidColorBrush x:Key="Color_Style_Light" Color="#115497"/>
+    <SolidColorBrush x:Key="Color_Style_Orange" Color="#e64a19"/>
+
+
+</ResourceDictionary>

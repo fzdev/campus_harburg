@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+
+  <item
+      android:id="@+id/action_update"
+      app:showAsAction="never"
+      android:icon="@drawable/ic_update"
+      android:title="Aktualisieren"/>
+
+  <item
+      android:id="@+id/action_info"
+      app:showAsAction="never"
+      android:icon="@drawable/ic_info"
+      android:title="Öffnungszeiten"/>
+</menu>

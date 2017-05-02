@@ -1,0 +1,61 @@
+﻿<Page x:Class="Campus_Harburg_UWP.frm_room_view"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:Campus_Harburg_UWP"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarBackgroundThemeBrush}">
+
+        <ScrollViewer Name="Scroll"
+                      Margin="10"
+                      BorderThickness="0"
+                      HorizontalScrollMode="Disabled"
+                      VerticalScrollMode="Auto">
+            <ItemsControl Name="Display">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel MaxWidth="600"
+                                    Margin="{Binding Path=margin}"
+                                    Background="{Binding Path=color}"
+                                    BorderBrush="Black"
+                                    BorderThickness="0 1 0 0"
+                                    HorizontalAlignment="Stretch"
+                                    Orientation="Vertical">
+
+
+                            <TextBlock 
+                                       Margin="{Binding Path=margin}"
+                                       FontSize="17"
+                                        Foreground="{Binding Path=fcolor}"
+                                       Text="{Binding Path=building}"
+                                        Visibility="{Binding Path=vis2}"
+                                       TextWrapping="Wrap" />
+                            <TextBlock 
+                                       Margin="0,0,10,0"
+                                       FontSize="17"
+                                       FontWeight="Bold"
+                                       Text="{Binding Path=room}"
+                                       Visibility="{Binding Path=vis}"
+                                       TextWrapping="Wrap" />
+                            <TextBlock 
+                                       Margin="0,0,10,0"
+                                       FontSize="17"
+                                       Text="{Binding Path=places}"
+                                       Visibility="{Binding Path=vis}"
+                                       TextWrapping="Wrap" />
+                            <TextBlock 
+                                       FontSize="17"
+                                       Text="{Binding Path=time}"
+                                       Visibility="{Binding Path=vis}"
+                                       TextWrapping="Wrap" />
+
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

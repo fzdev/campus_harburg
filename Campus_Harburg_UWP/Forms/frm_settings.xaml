@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Campus_Harburg_UWP.Forms.frm_settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Campus_Harburg_UWP.Forms"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarBorderThemeBrush}">
+       <TextBlock Text="Startseite:" Loaded="TextBlock_Loaded" Margin="10,40,-10,-10" />
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="94,35,0,0" VerticalAlignment="Top" Width="218" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBoxItem Content="Start"/>
+            <ComboBoxItem Content="Neues"/>
+            <ComboBoxItem Content="Mensa"/>
+            <ComboBoxItem Content="Räume"/>
+        </ComboBox>
+        <Button x:Name="button" Content="Daten löschen" HorizontalAlignment="Left" Margin="198,102,0,0" VerticalAlignment="Top" Click="button_Click"/>
+
+
+    </Grid>
+</Page>
