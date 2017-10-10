@@ -50,9 +50,9 @@ namespace Campus_Harburg_Core
             "Eingegebene Daten werden im Rahmen der Abfrage an die entsprechenden Webserver übermittelt und können " +
             "dort auch gespeichert werden. Hierbei kann auch die IP gespeichert werden.";
         //Info über: Versionsnummer
-        public static string About_Version = "1.47";
+        public static string About_Version = "1.48";
         //Info über: Builddatum
-        public static string About_Date = "27.4.17";
+        public static string About_Date = "10.10.17";
 
         // Meldung wenn Liste der Prüfungen älter als 30 Tage
         public static string Exams_TooOld = "Die Liste der Prüfungen ist älter als 30 Tage.\nSoll sie jetzt aktualisiert " +

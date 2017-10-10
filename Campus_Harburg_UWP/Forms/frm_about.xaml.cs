@@ -52,7 +52,7 @@ namespace Campus_Harburg_UWP
         {
             hinw.Text = TextContainer.About_Notes;
             info.Text = TextContainer.About_Privacy;
-            gui_ver.Text = "Version 1.4.6 (PCL: " + Campus_Harburg_Core.TextContainer.About_Version + ")";
+            gui_ver.Text = "Version 1.4.7 (PCL: " + Campus_Harburg_Core.TextContainer.About_Version + ")";
 
         }
     }

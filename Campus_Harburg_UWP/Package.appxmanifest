@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="61031FrankZimdars.CampusHarburg" Publisher="CN=frank" Version="1.5.0.0" />
-  <mp:PhoneIdentity PhoneProductId="69fea68c-ac4a-4ea8-a480-aec29429d416" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="61031FrankZimdars.CampusHarburg" Publisher="CN=0D116FC5-0111-463B-A38C-699709B0E29D" Version="1.4.7.0" />
+  <mp:PhoneIdentity PhoneProductId="84db1c36-fa3a-43af-b73e-52711285d33f" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Campus Harburg</DisplayName>
     <PublisherDisplayName>Frank Zimdars</PublisherDisplayName>

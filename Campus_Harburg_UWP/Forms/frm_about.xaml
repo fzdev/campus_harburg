@@ -15,7 +15,7 @@
                            FontSize="26"
                            Text="'Campus Harburg' App" />
                 <TextBlock Name="gui_ver" Text="Version 1.4.5 - 31.10.2016" />
-                <TextBlock Name="gui_date" Text="28.04.2017" />
+                <TextBlock Name="gui_date" Text="10.10.2017" />
                 <TextBlock Margin="0"
                            FontSize="15"
                            Text="Copyright © 2016-2017 Frank Zimdars" />

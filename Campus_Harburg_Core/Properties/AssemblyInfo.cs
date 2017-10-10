@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Campus_Harburg_Core")]
-[assembly: AssemblyCopyright("Copyright ©  2016 Frank Zimdars")]
+[assembly: AssemblyCopyright("Copyright ©  2017 Frank Zimdars")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("de")]
