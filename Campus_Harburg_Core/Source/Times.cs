@@ -47,43 +47,51 @@ namespace Campus_Harburg_Core
         {
            
             Times_Item i1 = new Times_Item();
-            
+
 
             //Sommersemester 2017
-            i1 = new Times_Item();
-            i1.title = "Wintersemester 2017/2018";
-            i1.time_start = "Erster Vorlesungstag 16. Oktober 2016";
-            i1.time_end = "Letzter Vorlesungstag 03. Februar 2018";
-            i1.time_complete = "01. Oktober 2017 bis 31. März 2018";
-            i1.time_holidays = "Weihnachtsferien: 25. Dezember 2017 bis 06. Januar 2018";
+            i1 = new Times_Item
+            {
+                title = "Wintersemester 2017/2018",
+                time_start = "Erster Vorlesungstag 16. Oktober 2017",
+                time_end = "Letzter Vorlesungstag 03. Februar 2018",
+                time_complete = "01. Oktober 2017 bis 31. März 2018",
+                time_holidays = "Weihnachtsferien: 25. Dezember 2017 bis 06. Januar 2018"
+            };
             lst.Add(i1);
 
             //Wintersemester 2017/2018
-            i1 = new Times_Item();
-            i1.title = "Sommersemester 2018";
-            i1.time_start = "Erster Vorlesungstag 03. April 2018";
-            i1.time_end = "Letzter Vorlesungstag 16. Juli 2018";
-            i1.time_complete = "Pfingstferien: 21. bis 26. Mai 2018";
-            i1.time_holidays = "Weihnachtsferien 25. Dezember 2016 bis 6. Januar 2017";
+            i1 = new Times_Item
+            {
+                title = "Sommersemester 2018",
+                time_start = "Erster Vorlesungstag 03. April 2018",
+                time_end = "Letzter Vorlesungstag 16. Juli 2018",
+                time_complete = "01. April 2018 bis 30. September 2018",
+                time_holidays = "Pfingstferien: 21. bis 26. Mai 2018"
+            };
             lst.Add(i1);
 
             //Sommersemester 2018
-            i1 = new Times_Item();
-            i1.title = "Wintersemester 2018/2019";
-            i1.time_start = "Erster Vorlesungstag 15. Oktober 2018";
-            i1.time_end = "Letzter Vorlesungstag 02. Februar 2019";
-            i1.time_complete = "24. Dezember 2018 bis 04. Januar 2019";
-            i1.time_holidays = "Pfingstferien 21. bis 26. Mai 2017";
+            i1 = new Times_Item
+            {
+                title = "Wintersemester 2018/2019",
+                time_start = "Erster Vorlesungstag 15. Oktober 2018",
+                time_end = "Letzter Vorlesungstag 02. Februar 2019",
+                time_complete = "1. Oktober 2018 bis 31. März 2019",
+                time_holidays = "Weihnachtsferien: 24. Dezember 2018 bis 04. Januar 2019"
+            };
             lst.Add(i1);
 
 
             //Sommersemester 2018
-            i1 = new Times_Item();
-            i1.title = "Sommersemester 2019";
-            i1.time_start = "Erster Vorlesungstag 01. April 2019";
-            i1.time_end = "Letzter Vorlesungstag 13. Juli 2019";
-            i1.time_complete = "01. April 2019 bis 30. September 2019";
-            i1.time_holidays = "Pfingstferien: 10. bis 15. Juni 2019";
+            i1 = new Times_Item
+            {
+                title = "Sommersemester 2019",
+                time_start = "Erster Vorlesungstag 01. April 2019",
+                time_end = "Letzter Vorlesungstag 13. Juli 2019",
+                time_complete = "01. April 2019 bis 30. September 2019",
+                time_holidays = "Pfingstferien: 10. bis 15. Juni 2019"
+            };
             lst.Add(i1);
 
             return lst;

@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:layout_below="@+id/text1"
-                    android:text="Version 1.45 (26. April 2017)"
+                    android:text="Version 1.48 (25. Oktober 2017)"
                     android:textColor="#000000"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
                 <TextView
