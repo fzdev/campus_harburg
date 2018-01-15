@@ -49,7 +49,7 @@ namespace Campus_Harburg_Core
             Times_Item i1 = new Times_Item();
 
 
-            //Sommersemester 2017
+            //Wintersemester 2017/2018
             i1 = new Times_Item
             {
                 title = "Wintersemester 2017/2018",
@@ -60,7 +60,7 @@ namespace Campus_Harburg_Core
             };
             lst.Add(i1);
 
-            //Wintersemester 2017/2018
+            //Sommersemester 2018
             i1 = new Times_Item
             {
                 title = "Sommersemester 2018",
@@ -71,7 +71,7 @@ namespace Campus_Harburg_Core
             };
             lst.Add(i1);
 
-            //Sommersemester 2018
+            ////Wintersemester 2018/2019
             i1 = new Times_Item
             {
                 title = "Wintersemester 2018/2019",
@@ -83,7 +83,7 @@ namespace Campus_Harburg_Core
             lst.Add(i1);
 
 
-            //Sommersemester 2018
+            //Sommersemester 2019
             i1 = new Times_Item
             {
                 title = "Sommersemester 2019",
